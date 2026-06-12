@@ -6,7 +6,6 @@ let gameActive = false;
 let intervalId = null;
 let timeoutId = null;
 
-// DOM элементы
 const clickBtn = document.getElementById('clickBtn');
 const clickCountDisplay = document.getElementById('clickCount');
 const timerDisplay = document.getElementById('timer');
