@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кликер с таймером</h1>
+        
+        <div class="game-info">
+            <div class="info-block">
+                <p class="label">Кликов</p>
+                <p class="value" id="clickCount">0</p>
+            </div>
+            
+            <div class="info-block">
+                <p class="label">Осталось времени</p>
+                <p class="timer" id="timer">15</p>
+            </div>
+        </div>
+        
+        <button id="clickBtn" class="click-button">Клик</button>
+        
+        <div id="gameOver" class="game-over-message">
+            <p id="resultMessage"></p>
+            <button id="restartBtn" class="restart-button">Начать заново</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
